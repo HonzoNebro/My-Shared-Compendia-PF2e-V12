@@ -1,12 +1,14 @@
-# My Shared Compendia PF2e
+# My Shared Compendia PF2e V12
 
 A Foundry VTT module to share Data between worlds via compendia for Pathfinder 2e worlds.
+This version has the same functionality as the previous one, but made it so it's compatibility flag works and no accidental updates happen.
+Just install this new version and copy your saved items from the old compendium
 
 ## Installation
 
 1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
 2. Click the `Install Module` button.
-3. Paste the Module's [Manifest URL](https://github.com/HonzoNebro/My-Shared-Compendia-PF2e/releases/download/v11/module.json)
+3. Paste the Module's [Manifest URL](https://github.com/HonzoNebro/My-Shared-Compendia-PF2e-V12/releases/download/v12/module.json)
    into the `Manifest URL` field.
 4. Click the `Install` button.
 
@@ -17,13 +19,13 @@ A Foundry VTT module to share Data between worlds via compendia for Pathfinder 2
 
 - Option 1 (easier): Locking your module:
   1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
-  2. Find this module (My Shared Compendia) in the list, and click the padlock icon.
+  2. Find this module (My Shared Compendia PF2e V12) in the list, and click the padlock icon.
      - Unlocked:  
        ![unlocked-module](resources/images/unlocked-module.webp)
      - Locked:  
        ![locked-module](resources/images/locked-module.webp)
 - Option 2: Updating your `module.json` file:
-  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia PF2e`) and update the `module.json` file.
+  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia PF2e V12`) and update the `module.json` file.
   2. Remove lines 68-69 (`download` and `manifest`) and save the file.
   3. Restart Foundry to reload the module.
 
@@ -33,7 +35,7 @@ _Remember_ that you need to unlock your compendia to be able to add things to th
 
 ## Default Setup
 
-This module comes with 13 Default compendia:
+This module comes with 13 Default compendia inside a folder:
 
 - `Actors (shared)` ([Actor](https://foundryvtt.com/article/actors/))
 - `Adventures (shared)` ([Adventures](https://foundryvtt.com/article/adventure/))
@@ -83,7 +85,6 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 ## Dependencies
 
 - [Pathfinder 2nd Edition](https://github.com/foundryvtt/pf2e) is required: The Game System adds some SRD Compendia.
-- Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
 
