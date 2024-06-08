@@ -1,16 +1,17 @@
 {
-  "id": "my-shared-compendia-pf2e",
-  "title": "My Shared Compendia PF2e",
+  "id": "my-shared-compendia-pf2e-v12",
+  "title": "My Shared Compendia PF2e V12",
   "description": "Creates default set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
   "authors": [
     {
-      "name": "HonzoNebro"
+      "name": "HonzoNebro",
+      "flags": {}
     }
   ],
-  "version": "11.0.0",
+  "version": "12.0.0",
   "compatibility": {
-    "minimum": "10.291",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "relationships": {
     "systems": [
@@ -18,7 +19,7 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.12.6"
+          "minimum": "5.16.1"
         }
       }
     ]
@@ -28,108 +29,181 @@
       "name": "adventures",
       "system": "pf2e",
       "label": "Adventures (shared)",
-      "path": "./packs/adventures.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Adventure"
+      "path": "packs/my-shared-compendia-pf2e/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "actors",
       "system": "pf2e",
       "label": "Actors (shared)",
-      "path": "./packs/actors.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Actor"
+      "path": "packs/my-shared-compendia-pf2e/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "monsters",
       "system": "pf2e",
       "label": "Monsters (shared)",
-      "path": "./packs/monsters.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Actor"
+      "path": "packs/my-shared-compendia-pf2e/monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "items",
       "system": "pf2e",
       "label": "Items (shared)",
-      "path": "./packs/items.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Item"
+      "path": "packs/my-shared-compendia-pf2e/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "spells",
       "system": "pf2e",
       "label": "Spells (shared)",
-      "path": "./packs/spells.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Item"
+      "path": "packs/my-shared-compendia-pf2e/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "classes",
       "system": "pf2e",
       "label": "Classes (shared)",
-      "path": "./packs/classes.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Item"
+      "path": "packs/my-shared-compendia-pf2e/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "subclasses",
       "system": "pf2e",
       "label": "Subclasses (shared)",
-      "path": "./packs/subclasses.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Item"
+      "path": "packs/my-shared-compendia-pf2e/subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "feats",
       "system": "pf2e",
       "label": "Feats (shared)",
-      "path": "./packs/feats.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Item"
+      "path": "packs/my-shared-compendia-pf2e/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "scenes",
       "system": "pf2e",
       "label": "Scenes (shared)",
-      "path": "./packs/scenes.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Scene"
+      "path": "packs/my-shared-compendia-pf2e/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "JournalEntries",
       "system": "pf2e",
       "label": "Journal Entries (shared)",
-      "path": "./packs/journalentry.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "JournalEntry"
+      "path": "packs/my-shared-compendia-pf2e/journalentry",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "macros",
       "system": "pf2e",
       "label": "Macros (shared)",
-      "path": "./packs/macro.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Macro"
+      "path": "packs/my-shared-compendia-pf2e/macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "rolltables",
       "system": "pf2e",
       "label": "Roll Tables (shared)",
-      "path": "./packs/rolltables.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "RollTable"
+      "path": "packs/my-shared-compendia-pf2e/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "playlist",
       "system": "pf2e",
       "label": "Playlist (shared)",
-      "path": "./packs/playlist.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Playlist"
+      "path": "packs/my-shared-compendia-pf2e/playlist",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
-  "download": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e/releases/download/v11/module.zip",
-  "manifest": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e/releases/download/v11/module.json",
-  "url": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e"
+  "packFolders":[
+    {
+      "name": "My Shared Compendia",
+      "sorting": "m",
+      "packs": [
+        "adventures",
+        "actors",
+        "monsters",
+        "items",
+        "spells",
+        "classes",
+        "subclasses",
+        "feats",
+        "scenes",
+        "JournalEntries",
+        "macros",
+        "rolltables",
+        "playlist"
+      ]
+    }
+  ],
+  "download": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e-V12/releases/download/v12/module.zip",
+  "manifest": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e-V12/releases/latest/download/module.json",
+  "url": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e-V12"
 }
