@@ -53,28 +53,36 @@ This module comes with 13 Default compendia inside a folder:
 
 ## Customize
 
-To change the default setup, edit the `module.json` file. All compendia are defined within the "packs" attribute beginning with line 18.
+To change the default setup, edit the `module.json` file. All compendia are defined within the "packs" attribute beginning with line 27.
 
 For example:
 
 ```json
 {
-  "packs": [
+   "packs": [
     {
-      "name": "monsters",
+      "name": "adventures",
       "system": "pf2e",
-      "label": "Monsters",
-      "path": "./packs/monsters.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Actor"
+      "label": "Adventures (shared)",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "my-custom-items",
+      "name": "actors",
       "system": "pf2e",
-      "label": "My Custom Items",
-      "path": "./packs/items.db",
-      "module": "my-shared-compendia-pf2e",
-      "type": "Item"
+      "label": "Actors (shared)",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ]
 }
@@ -88,6 +96,5 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 
 # Credits
 
-Credit for the cleaner version goes to [npiani](https://github.com/npiani).
+All the authors of the My Shared Compendia module that this one is but a fork of (https://github.com/stschoelzel/My-Shared-Compendia). Credit for the cleaner version goes to [npiani](https://github.com/npiani).
 Process explained by [/u/solfolango](https://www.reddit.com/u/solfolango) on [/r/FoundryVTT](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/).
-And all the authors of the My Shared Compendia module that this one is but a fork of (https://github.com/stschoelzel/My-Shared-Compendia)
