@@ -1,6 +1,6 @@
 {
-  "id": "my-shared-compendia-pf2e-v12",
-  "title": "My Shared Compendia PF2e V12",
+  "id": "my-shared-compendia-pf2e",
+  "title": "My Shared Compendia PF2e",
   "description": "Creates default set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
   "authors": [
     {
@@ -29,7 +29,7 @@
       "name": "adventures",
       "system": "pf2e",
       "label": "Adventures (shared)",
-      "path": "packs/my-shared-compendia-pf2e/adventures",
+      "path": "packs/adventures",
       "type": "Adventure",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -41,7 +41,7 @@
       "name": "actors",
       "system": "pf2e",
       "label": "Actors (shared)",
-      "path": "packs/my-shared-compendia-pf2e/actors",
+      "path": "packs/actors",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -53,7 +53,7 @@
       "name": "monsters",
       "system": "pf2e",
       "label": "Monsters (shared)",
-      "path": "packs/my-shared-compendia-pf2e/monsters",
+      "path": "packs/monsters",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -65,7 +65,7 @@
       "name": "items",
       "system": "pf2e",
       "label": "Items (shared)",
-      "path": "packs/my-shared-compendia-pf2e/items",
+      "path": "packs/items",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -77,7 +77,7 @@
       "name": "spells",
       "system": "pf2e",
       "label": "Spells (shared)",
-      "path": "packs/my-shared-compendia-pf2e/spells",
+      "path": "packs/spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -89,7 +89,7 @@
       "name": "classes",
       "system": "pf2e",
       "label": "Classes (shared)",
-      "path": "packs/my-shared-compendia-pf2e/classes",
+      "path": "packs/classes",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -101,7 +101,7 @@
       "name": "subclasses",
       "system": "pf2e",
       "label": "Subclasses (shared)",
-      "path": "packs/my-shared-compendia-pf2e/subclasses",
+      "path": "packs/subclasses",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -113,7 +113,7 @@
       "name": "feats",
       "system": "pf2e",
       "label": "Feats (shared)",
-      "path": "packs/my-shared-compendia-pf2e/feats",
+      "path": "packs/feats",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -125,7 +125,7 @@
       "name": "scenes",
       "system": "pf2e",
       "label": "Scenes (shared)",
-      "path": "packs/my-shared-compendia-pf2e/scenes",
+      "path": "packs/scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -137,7 +137,7 @@
       "name": "JournalEntries",
       "system": "pf2e",
       "label": "Journal Entries (shared)",
-      "path": "packs/my-shared-compendia-pf2e/journalentry",
+      "path": "packs/journalentry",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -149,7 +149,7 @@
       "name": "macros",
       "system": "pf2e",
       "label": "Macros (shared)",
-      "path": "packs/my-shared-compendia-pf2e/macro",
+      "path": "packs/macro",
       "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -161,7 +161,7 @@
       "name": "rolltables",
       "system": "pf2e",
       "label": "Roll Tables (shared)",
-      "path": "packs/my-shared-compendia-pf2e/rolltables",
+      "path": "packs/rolltables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -173,7 +173,7 @@
       "name": "playlist",
       "system": "pf2e",
       "label": "Playlist (shared)",
-      "path": "packs/my-shared-compendia-pf2e/playlist",
+      "path": "packs/playlist",
       "type": "Playlist",
       "ownership": {
         "PLAYER": "OBSERVER",
